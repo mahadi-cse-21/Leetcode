@@ -40,7 +40,8 @@ int main()
     }
     Solution *np = new Solution();
     nums = np->plusOne(nums);
-    for(int i=0; i<nums.size(); i++)
+    int size1 = nums.size();
+    for(int i=0; i<size1; i++)
     {
         cout<<nums[i]<<" ";
     }
